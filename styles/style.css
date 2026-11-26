@@ -261,3 +261,43 @@ ol {
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
 }
+
+.button {
+  block-size: 34px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  background-color: transparent;
+}
+
+.search-form__submit-button {
+  inline-size: 194px;
+  align-self: flex-end;
+}
+
+.more-button {
+  inline-size: 100%;
+  flex-shrink: 0;
+}
+
+.button:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
