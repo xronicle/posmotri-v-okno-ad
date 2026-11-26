@@ -100,6 +100,7 @@ ol {
 }
 
 .content__list {
+  padding-block: 2px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -205,6 +206,7 @@ ol {
 }
 
 .search-form__textfield {
+  padding: 0;
   appearance: none;
   inline-size: 225px;
   block-size: 27px;
@@ -257,6 +259,7 @@ ol {
 }
 
 .button {
+  padding: 6px;
   block-size: 34px;
   border: 1px solid #fff;
   color: #fff;
@@ -272,6 +275,7 @@ ol {
 }
 
 .more-button {
+  margin-block-end: 2px;
   inline-size: 100%;
   flex-shrink: 0;
 }
