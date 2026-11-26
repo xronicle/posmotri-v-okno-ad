@@ -337,3 +337,8 @@ ol {
 .search-form__checkbox-list .search-form__label {
   cursor: pointer;
 }
+
+.result__video-container,
+.content__list-container {
+  position: relative;
+}
