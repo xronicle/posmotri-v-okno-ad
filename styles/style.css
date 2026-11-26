@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -49,12 +52,6 @@ ol {
   background-color: #D9D9D9;
 }
 
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .content {
   display: flex;
   inline-size: 1140px;
@@ -71,6 +68,9 @@ ol {
 .content__list-container {
   block-size: 298px;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .content__details {
@@ -106,12 +106,6 @@ ol {
   gap: 30px;
 }
 
-.content__list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
 .content__video-card {
   display: flex;
   align-items: flex-start;
@@ -127,6 +121,7 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  overflow: hidden;
 }
 
 .search-form__fieldset-title {
@@ -150,10 +145,7 @@ ol {
 .content__card-link {
   color: #fff;
   text-decoration: none;
-}
-
-.content__video-card-description-container {
-  overflow: hidden;
+  display: block;
 }
 
 .content__video-card-title {
@@ -299,10 +291,6 @@ ol {
 
 .more-button:focus-visible {
   outline-offset: -3px;
-}
-
-.content__card-link {
-  display: block;
 }
 
 .content__card-link_current {
