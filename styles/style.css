@@ -331,3 +331,9 @@ ol {
 .content__list-item {
   padding-inline: 3px;
 }
+
+.button,
+.content__card-link,
+.search-form__checkbox-list .search-form__label {
+  cursor: pointer;
+}
